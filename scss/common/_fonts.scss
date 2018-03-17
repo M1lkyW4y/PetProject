@@ -1,0 +1,17 @@
+@include font-face('Montserrat', 'Montserrat-Light', 100, normal);
+@include font-face('Montserrat', 'Montserrat-ExtraLightItalic', 100, italic);
+@include font-face('Montserrat', 'Montserrat-Medium', 500, normal);
+@include font-face('Montserrat', 'Montserrat-SemiBold', 600, normal);
+
+@each $name, $color in $fonts {
+  .font {
+    &--#{$name} {
+      color: $color;
+    }
+  }
+}
+
+.font-small {
+  line-height: 20px;
+  font-size: 15px;
+}

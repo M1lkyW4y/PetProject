@@ -1,0 +1,103 @@
+/* ==============================variables=================================== */
+/**
+ * CUSTOM VARIABLES
+ */
+$colors: (
+  pp-dark: #000,
+  overlay-dark: rgba(0, 0, 0, .3),
+);
+
+/**
+ * CUSTOM TRANSITION
+ */
+$transition: (
+  025-ease: .25s ease-in-out,
+  025-ease-transform: transform .5s ease,
+  05-ease: .5s ease-in-out,
+  05-ease-background: background-position .5s ease-in-out,
+  05-ease-color-ie11: color .5s ease-in-out,
+  05-ease-width: width .5s ease,
+  1-ease-max-height: max-height 1s ease,
+  015-ease-max-height: max-height .15s ease,
+  1-ease-transform: transform 1s ease,
+  1-ease-heading-cirlce: all 1s ease 1s,
+  2-ease-heading-small-cirlce: all 2s ease .5s,
+  1-ease-heading-title: all 1s ease .8s,
+  1-ease-heading-descript: all 1s ease 1.5s,
+  1-ease-heading-top: opacity 1s ease,
+  1-ease-carousel-header-title: all 1s ease,
+  05-glencore-link: background-size .5s ease,
+);
+
+/**
+* BOOTSTRAP OVERRIDES
+*/
+
+// Components
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+// Font
+$font-family-base: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-weight-base: 100;
+
+$font-weight-light: 100;
+$font-weight-normal: 500;
+$font-weight-bold: 600;
+
+$headings-font-weight: 500;
+$h2-font-size: 2.6rem;
+$h4-font-size: 1.125rem;
+
+$link-color: color(glencore-teal);
+$link-hover-color: color(glencore-teal);
+$link-hover-decoration: none;
+$link-font-weight: $font-weight-bold;
+
+$btn-font-weight: 500;
+$btn-font-size: .875rem;
+$btn-box-shadow: none;
+$btn-active-box-shadow: none;
+$btn-border-radius: 0;
+
+$input-btn-padding-x: 1.56rem;
+$input-btn-padding-y: .375rem;
+
+$body-color: #1d1d1d;
+$border-color: color(glencore-gray);
+
+$card-border-color: color(glencore-gray);
+
+/**
+ * CUSTOM z-index
+ */
+$z-index: (
+  promotion-overlay: 0,
+  latest-media-button: 2,
+);
+
+/**
+ * CUSTOM IMG
+ */
+$img-path: '../img/';
+
+//HEADER
+$min-height-content: 270px;
+
+$headings: (
+  h1: (18px, 500, none, 20px, 500, none),
+  h2: (16px, 100, uppercase, 18px, 100, uppercase),
+  h3: (16px, 500, none, 18px, 500, none),
+  h4: (14px, 500, none, 16px, 500, none),
+  h5: (14px, 100, none, 14px, 100, none),
+  h6: (14px, 100, none, 14px, 100, none),
+);
+
+$icons: (
+  close: 'icon-close.png',
+  energy:  'icon-energy.png',
+  minerals: 'icon-minerals.png',
+  agriculture: 'icon-agriculture.png',
+  marketing: 'icon-marketing.png',
+  offices: 'icon-offices.png',
+)
