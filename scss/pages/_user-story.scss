@@ -1,0 +1,45 @@
+.user-story {
+  color: rgb(51, 51, 51);
+
+  &__wrapper {
+    background-color: #eee;
+    padding: 60px;
+  }
+
+  &__title {
+    text-align: center;
+
+    .title {
+      font: {
+        size: 63px;
+        weight: 500;
+      }
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      font: {
+        size: 24px;
+        weight: 500;
+        style: italic;
+      }
+    }
+  }
+
+  &__image {
+    background-color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+    }
+
+    .caption {
+      font-size: 14px;
+      line-height: 2px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}
