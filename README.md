@@ -1,12 +1,31 @@
 # PetProject
+////////////////////////////////////////////////////
+//////////////////  SET UP /////////////////////////
+////////////////////////////////////////////////////
 
 HOW TO USE
 1. Install yarn/npm
-https://yarnpkg.com/en/docs/install#windows
-2. yarn install
-(install package/ independencies)
-3. yarn start
-(run project )
+("https://yarnpkg.com/en/docs/install#windows")
+2. Install parcelJs 
+("https://parceljs.org/getting_started.html")
+npm install -g parcel-bundler 
+or
+yarn global add parcel-bundler
+3. Clone project
+("https://github.com/M1lkyW4y/PetProject.git")
+git clone https://github.com/M1lkyW4y/PetProject.git
+4. Run those command
+yarn install
+(using to install dependencies and dev environments)
+
+yarn start
+(using to run project)
+
+5. Go to http://localhost:1234
+
+////////////////////////////////////////////////////
+//////////////////  WORKING BRANCH /////////////////
+////////////////////////////////////////////////////
 
 work on develop branch.
 
@@ -17,6 +36,10 @@ GIT COMMAND:
 (using to create new branch)
 3. git checkout develop
 (using to change current branch to develop branch)
+
+////////////////////////////////////////////////////
+////////////////////////  RULES ////////////////////
+////////////////////////////////////////////////////
 
 BRANCH NAME RULES:
 
